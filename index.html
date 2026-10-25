@@ -3,17 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' https://files.openai.com https://chatgpt.com https://pingpongit.com; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
 <title>插件中英文查询手册</title>
 <link rel="stylesheet" href="./catalog.css">
 </head>
 <body><main>
-<header><div class="eyebrow">PLUGIN DIRECTORY · 中英对照</div><h1 id="title">插件中英文查询手册</h1><p class="intro">保留英文品牌名，用中文看懂用途。部分详情未取得；历史恢复介绍未重新核验。</p><p class="meta" id="meta"></p><p>已有扩展介绍 6378 项；部分详情仍未取得。原图合计 7,633 项曾成功显示，31 项未取得；现 221 项附带离线原图。</p><label><input type="checkbox" id="icon-network">离线模式（不加载外部图标）</label><details id="coverage-details"><summary>查看资料覆盖、来源状态与图标说明</summary><div class="notice" id="notice" role="note"></div><p>图标测试于2026-10-24在云浏览器完成，加载成功不等于全部已离线保存，也不保证后续始终可用。原先跳过的5个原SVG已另行实际渲染通过，合计7633项曾成功显示，31项未取得；联网可用性可能变化。</p><section class="icon-mode" aria-label="图标加载模式"><p>已内嵌图标优先显示；未内嵌图标从已观察到的官方来源地址加载，离线时部分不可用。仅允许 files.openai.com、chatgpt.com、pingpongit.com。图片请求不发送页面来源，Cookie 等由浏览器策略管理。切换离线模式后不再安排外部图片，已发出的请求不保证取消；失败不自动重试。仅使用已静态安全验证的原SVG；其他未知data图不加载。</p><p id="icon-status" role="status" aria-live="polite"></p></section></details></header>
+<header><div class="eyebrow">PLUGIN DIRECTORY · 中英对照</div><h1 id="title">插件中英文查询手册</h1><p class="intro">保留英文品牌名，用中文看懂用途。部分详情未取得；历史恢复介绍未重新核验。</p><p class="meta" id="meta"></p><p id="icon-summary">已有扩展介绍 6378 项；部分详情仍未取得。图标数量将在目录加载后显示。</p><details id="coverage-details"><summary>查看资料覆盖、来源状态与图标说明</summary><div class="notice" id="notice" role="note"></div><p>2026-10-24 的历史浏览器测试有 7,633 个原图曾显示、31 个未取得；该结果不是本站图标加载结果。本站仅使用已保存的同源图标文件，未取得的原图显示占位。</p><section class="icon-mode" aria-label="本站图标状态"><p>图标从本站静态资源加载，不向原始图标地址发请求。部分公开原图已压缩转存为 WebP，保留图形内容但字节不相同。未取得的图标保持中性占位，不以网站 favicon 或其他图片替代。原始图标文件可能有历史版本差异。</p><p id="icon-status" role="status" aria-live="polite"></p></section></details></header>
 <section class="controls" aria-label="查询条件"><label for="search">搜索插件</label><input id="search" type="search" placeholder="输入英文名、中文用途或原文关键词，如 Canva / 日历 / calendar" autocomplete="off"><fieldset><legend>按分类筛选</legend><div class="filters" id="filters"></div></fieldset><p class="filter-help">可多选分类，显示属于任意所选分类的插件；搜索与分类条件同时生效。</p></section>
-<div class="resultbar"><p id="result-count" role="status" aria-live="polite"></p><button id="reset" type="button">清空筛选</button></div>
+<div class="resultbar"><p id="result-count" role="status" aria-live="polite">目录数据加载中…</p><button id="reset" type="button">清空筛选</button></div>
 <nav class="pagination" aria-label="结果分页"><button id="page-prev" type="button">上一页</button><span id="page-status" role="status" aria-live="polite"></span><button id="page-next" type="button">下一页</button></nav>
 <section class="cards" id="cards" aria-label="插件列表"></section><div id="empty" class="empty" hidden>没有找到匹配的插件。试试其他关键词，或清空分类筛选。</div>
-<footer>中文名称与用途为解释性翻译，不代表官方中文品牌名。目录介绍不代表已安装、已连接或对所有账户可用。本文件不执行安装或连接操作，也不收集查询记录。内嵌图标可离线查看。未内嵌图标默认从已观察的官方地址按需加载，可切换离线模式，联网成功不代表全部图标或详细介绍已完成。</footer>
+<footer>中文名称与用途为解释性翻译，不代表官方中文品牌名。目录介绍不代表已安装、已连接或对所有账户可用。本文件不执行安装或连接操作，也不收集查询记录。已保存的原图从本站加载；未取得的原图显示占位。图标与详细介绍均未保证完整。</footer>
 </main>
 
 <script src="./catalog.js" defer></script></body></html>

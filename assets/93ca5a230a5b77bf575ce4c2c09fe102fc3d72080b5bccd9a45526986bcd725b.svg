@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="FinGrad Appendix Generator">
+  <rect width="512" height="512" rx="112" fill="#1E6B42"/>
+  <path d="M142 112h178l70 70v218c0 17-13 30-30 30H142c-17 0-30-13-30-30V142c0-17 13-30 30-30Z" fill="#FFFFFF"/>
+  <path d="M320 112v70h70" fill="none" stroke="#B7DEC4" stroke-width="26" stroke-linejoin="round"/>
+  <path d="M176 250h160M176 318h113" stroke="#1E6B42" stroke-width="30" stroke-linecap="round"/>
+  <circle cx="365" cy="355" r="64" fill="#B7DEC4"/>
+  <path d="M338 356l18 18 38-43" fill="none" stroke="#1E6B42" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

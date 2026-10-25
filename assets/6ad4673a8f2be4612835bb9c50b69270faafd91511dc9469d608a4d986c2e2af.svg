@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="EN logo">
+  <g fill="none" fill-rule="evenodd">
+    <path
+      d="M36 30h92c14.359 0 26 11.641 26 26v55c0 14.359-11.641 26-26 26H93.5L72 156v-19H36c-14.359 0-26-11.641-26-26V56c0-14.359 11.641-26 26-26z"
+      stroke="#0A2E4F"
+      stroke-width="8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+
+    <g transform="translate(36 42)" stroke="#0A2E4F" stroke-width="6" stroke-linecap="round">
+      <circle cx="34" cy="34" r="34" />
+      <path d="M0 34h68M34 0v68" />
+      <path d="M6 17h56M6 51h56" />
+      <path d="M17 3c8 9 12 19.5 12 31s-4 22-12 31M51 3c-8 9-12 19.5-12 31s4 22 12 31" />
+    </g>
+
+    <g transform="translate(94 76)">
+      <rect x="0" y="0" width="76" height="52" rx="16" fill="#FF3B30" />
+      <path d="M22 52l-8 11v-11" fill="#FF3B30" />
+      <path d="M19 18h38M19 28h30M19 38h22" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
